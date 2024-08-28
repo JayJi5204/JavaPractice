@@ -3,19 +3,19 @@ package enumeration;
 public class HydraDamageErr1 {
     public static void main(String[] args) {
         int damage = 100;
-
+        
         HydraliskService1 hydraliskService1 = new HydraliskService1();
 
         // 존재하지 않는 등급
-        int light = hydraliskService1.AttackType("LIGHT", damage);
+        int light = hydraliskService1.DamageType("LIGHT", damage);
         System.out.println("LIGHT 타입의 히드라 데미지 : " + light);
 
         // 오타
-        int smalll = hydraliskService1.AttackType("SMALLL", damage);
+        int smalll = hydraliskService1.DamageType("SMALLL", damage);
         System.out.println("SMALLL 타입의 히드라 데미지 : " + smalll);
 
         // 소문자 입력
-        int small2 = hydraliskService1.AttackType("small", damage);
+        int small2 = hydraliskService1.DamageType("small", damage);
         System.out.println("small 타입의 히드라 데미지 : " + small2);
 
     }

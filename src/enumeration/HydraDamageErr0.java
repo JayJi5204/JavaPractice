@@ -1,22 +1,21 @@
 package enumeration;
 
-public class HydraDamageErr2 {
+public class HydraDamageErr0 {
     public static void main(String[] args) {
         int damage = 100;
 
-        // String 타입은 어떤 문자열이든 입력할 수 있어서 근본적 문제 해결 불가
-        HydraliskService2 hydraliskService2 = new HydraliskService2();
+        HydraliskService0 hydraliskService0 = new HydraliskService0();
 
         // 존재하지 않는 등급
-        int light = hydraliskService2.AttackType("LIGHT", damage);
+        int light = hydraliskService0.DamageType("LIGHT", damage);
         System.out.println("LIGHT 타입의 히드라 데미지 : " + light);
 
         // 오타
-        int smalll = hydraliskService2.AttackType("SMALLL", damage);
+        int smalll = hydraliskService0.DamageType("SMALLL", damage);
         System.out.println("SMALLL 타입의 히드라 데미지 : " + smalll);
 
         // 소문자 입력
-        int small2 = hydraliskService2.AttackType("small", damage);
+        int small2 = hydraliskService0.DamageType("small", damage);
         System.out.println("small 타입의 히드라 데미지 : " + small2);
 
     }
