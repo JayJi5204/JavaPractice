@@ -5,7 +5,7 @@ public class HydraDamageMain2 {
         int damage = 100;
 
         HydraliskService2 hydraliskService2 = new HydraliskService2();
-        //AttackType2 newAttackType2=new AttackType2(); 생성불가
+        // AttackType2 newAttackType2=new AttackType2(); 생성불가
         int small = hydraliskService2.DamageType(AttackType2.SMALL, damage);
         int middle = hydraliskService2.DamageType(AttackType2.MIDDLE, damage);
         int large = hydraliskService2.DamageType(AttackType2.LARGE, damage);
