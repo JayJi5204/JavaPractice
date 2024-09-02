@@ -1,4 +1,4 @@
-package nested;
+package nested.nested;
 
 public class NestedOuter {
     // 정적 중첩 클래스는 앞에 static이 붙는다.

@@ -1,4 +1,4 @@
-package nested;
+package nested.nested;
 
 public class NetworkMain1 {
     public static void main(String[] args) {

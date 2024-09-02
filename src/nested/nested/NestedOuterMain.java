@@ -1,4 +1,4 @@
-package nested;
+package nested.nested;
 
 public class NestedOuterMain {
     public static void main(String[] args) {
@@ -13,4 +13,4 @@ public class NestedOuterMain {
 // - 결과값 -
 // 1
 // 3
-// nestedClass = class nested.NestedOuter$Nested
+// nestedClass = class nested.nested.NestedOuter$Nested

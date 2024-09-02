@@ -1,4 +1,4 @@
-package nested;
+package nested.nested;
 
 //Network 객체 안에서만 사용
 public class NetworkMessage1 {

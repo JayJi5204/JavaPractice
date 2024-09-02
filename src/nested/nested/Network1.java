@@ -1,4 +1,4 @@
-package nested;
+package nested.nested;
 
 public class Network1 {
     public void sendMessage(String text) {
