@@ -14,7 +14,7 @@ public class LocalOuterV1 {
     public void process(int paramVar) {
 
         // 자신이 속한 코드 블럭의 지역 변수에 접근 가능
-        int lovalVar = 1;
+        int localVar = 1;
         class LocalPrinter {
 
             // 자신의 인스턴스 변수에 접근 가능
@@ -22,7 +22,7 @@ public class LocalOuterV1 {
 
             public void printData() {
                 System.out.println("value = " + value);
-                System.out.println("localVar = " + lovalVar);
+                System.out.println("localVar = " + localVar);
                 System.out.println("paramVar = " + paramVar);
                 System.out.println("outInstanceVar = " + outInstanceVar);
             }
