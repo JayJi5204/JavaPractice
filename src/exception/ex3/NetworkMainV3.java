@@ -1,16 +1,12 @@
-package exception.ex2;
-
+package exception.ex3;
 
 import java.util.Scanner;
 
-public class NetworkMainV2 {
-    public static void main(String[] args) throws NetworkClientExceptionV2 {
+public class NetworkMainV3 {
+    public static void main(String[] args) {
 
-        //NetworkServiceV2_1 networkService = new NetworkServiceV2_1();
-        //NetworkServiceV2_2 networkService = new NetworkServiceV2_2();
-        //NetworkServiceV2_3 networkService = new NetworkServiceV2_3();
-        //NetworkServiceV2_4 networkService = new NetworkServiceV2_4();
-        NetworkServiceV2_5 networkService = new NetworkServiceV2_5();
+        //NetworkServiceV3_1 networkService = new NetworkServiceV3_1();
+        NetworkServiceV3_2 networkService = new NetworkServiceV3_2();
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
@@ -32,12 +28,12 @@ public class NetworkMainV2 {
 // http://exception.com 서버 연결 해제
 //
 // 전송할 문자 : error1
-// [오류] 코드 : connectError, 메세지 : http://exception.com 서버 연결 실패
+// [연결 오류] 코드 : http://exception.com, 메세지 : http://exception.com 서버 연결 실패
 // http://exception.com 서버 연결 해제
 //
 // 전송할 문자 : error2
 // http://exception.com 서버 연결 성공
-// [오류] 코드 : sendError, 메세지 : http://exception.com 서버에 데이터 전송 실패 : error2
+// [전송 오류] 코드 : http://exception.com 서버에 데이터 전송 실패 : error2, 메세지 : http://exception.com
 // http://exception.com 서버 연결 해제
 //
 // 전송할 문자 : exit
